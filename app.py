@@ -120,8 +120,8 @@ with st.sidebar:
         st.rerun()
 
 # --- Load Model and Encoders ---
-model = joblib.load("C:\\Users\\rvnt1\\OneDrive\\Desktop\\major project\\fraud_detection_model.jb")
-encoder = joblib.load("C:\\Users\\rvnt1\\OneDrive\\Desktop\\major project\\label_encoders.jb")
+model = joblib.load("fraud_detection_model.jb")
+encoder = joblib.load("label_encoders.jb")
 
 # --- Utility Function ---
 def haversine(lat1, lon1, lat2, lon2):
