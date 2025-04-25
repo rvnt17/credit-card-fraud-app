@@ -1,6 +1,9 @@
-streamlit
 pandas
-joblib
+numpy
 lightgbm
+seaborn
+matplotlib
+scikit-learn
+imbalanced-learn
 geopy
-
+joblib
